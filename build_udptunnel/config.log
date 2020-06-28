@@ -1,0 +1,69 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:557: checking for a BSD compatible install
+configure:610: checking whether build environment is sane
+configure:667: checking whether make sets ${MAKE}
+configure:713: checking for working aclocal
+configure:726: checking for working autoconf
+configure:739: checking for working automake
+configure:752: checking for working autoheader
+configure:765: checking for working makeinfo
+configure:782: checking for gcc
+configure:895: checking whether the C compiler (x86_64-openwrt-linux-musl-gcc -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -iremap /home/ubuntu/source/build_dir/target-x86_64_musl-1.1.16/udptunnel-1.1:udptunnel-1.1 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro  -L/home/ubuntu/source/staging_dir/target-x86_64_musl-1.1.16/usr/lib -L/home/ubuntu/source/staging_dir/target-x86_64_musl-1.1.16/lib -L/home/ubuntu/source/staging_dir/toolchain-x86_64_gcc-5.4.0_musl-1.1.16/usr/lib -L/home/ubuntu/source/staging_dir/toolchain-x86_64_gcc-5.4.0_musl-1.1.16/lib -znow -zrelro ) works
+configure:911: x86_64-openwrt-linux-musl-gcc -o conftest -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -iremap /home/ubuntu/source/build_dir/target-x86_64_musl-1.1.16/udptunnel-1.1:udptunnel-1.1 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro  -I/home/ubuntu/source/staging_dir/target-x86_64_musl-1.1.16/usr/include -I/home/ubuntu/source/staging_dir/target-x86_64_musl-1.1.16/include -I/home/ubuntu/source/staging_dir/toolchain-x86_64_gcc-5.4.0_musl-1.1.16/usr/include -I/home/ubuntu/source/staging_dir/toolchain-x86_64_gcc-5.4.0_musl-1.1.16/include/fortify -I/home/ubuntu/source/staging_dir/toolchain-x86_64_gcc-5.4.0_musl-1.1.16/include  -L/home/ubuntu/source/staging_dir/target-x86_64_musl-1.1.16/usr/lib -L/home/ubuntu/source/staging_dir/target-x86_64_musl-1.1.16/lib -L/home/ubuntu/source/staging_dir/toolchain-x86_64_gcc-5.4.0_musl-1.1.16/usr/lib -L/home/ubuntu/source/staging_dir/toolchain-x86_64_gcc-5.4.0_musl-1.1.16/lib -znow -zrelro  conftest.c  1>&5
+configure:908:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ main(){return(0);}
+ ^
+configure:937: checking whether the C compiler (x86_64-openwrt-linux-musl-gcc -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -iremap /home/ubuntu/source/build_dir/target-x86_64_musl-1.1.16/udptunnel-1.1:udptunnel-1.1 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro  -L/home/ubuntu/source/staging_dir/target-x86_64_musl-1.1.16/usr/lib -L/home/ubuntu/source/staging_dir/target-x86_64_musl-1.1.16/lib -L/home/ubuntu/source/staging_dir/toolchain-x86_64_gcc-5.4.0_musl-1.1.16/usr/lib -L/home/ubuntu/source/staging_dir/toolchain-x86_64_gcc-5.4.0_musl-1.1.16/lib -znow -zrelro ) is a cross-compiler
+configure:942: checking whether we are using GNU C
+configure:951: x86_64-openwrt-linux-musl-gcc -E conftest.c
+configure:970: checking whether x86_64-openwrt-linux-musl-gcc accepts -g
+configure:1002: checking whether make sets ${MAKE}
+configure:1035: checking for gethostname in -lnsl
+configure:1054: x86_64-openwrt-linux-musl-gcc -o conftest -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -iremap /home/ubuntu/source/build_dir/target-x86_64_musl-1.1.16/udptunnel-1.1:udptunnel-1.1 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro  -Wall -I/home/ubuntu/source/staging_dir/target-x86_64_musl-1.1.16/usr/include -I/home/ubuntu/source/staging_dir/target-x86_64_musl-1.1.16/include -I/home/ubuntu/source/staging_dir/toolchain-x86_64_gcc-5.4.0_musl-1.1.16/usr/include -I/home/ubuntu/source/staging_dir/toolchain-x86_64_gcc-5.4.0_musl-1.1.16/include/fortify -I/home/ubuntu/source/staging_dir/toolchain-x86_64_gcc-5.4.0_musl-1.1.16/include  -L/home/ubuntu/source/staging_dir/target-x86_64_musl-1.1.16/usr/lib -L/home/ubuntu/source/staging_dir/target-x86_64_musl-1.1.16/lib -L/home/ubuntu/source/staging_dir/toolchain-x86_64_gcc-5.4.0_musl-1.1.16/usr/lib -L/home/ubuntu/source/staging_dir/toolchain-x86_64_gcc-5.4.0_musl-1.1.16/lib -znow -zrelro  conftest.c -lnsl   1>&5
+/home/ubuntu/source/staging_dir/toolchain-x86_64_gcc-5.4.0_musl-1.1.16/lib/gcc/x86_64-openwrt-linux-musl/5.4.0/../../../../x86_64-openwrt-linux-musl/bin/ld: cannot find -lnsl
+collect2: error: ld returned 1 exit status
+configure: failed program was:
+#line 1043 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char gethostname();
+
+int main() {
+gethostname()
+; return 0; }
+configure:1082: checking for socket in -lsocket
+configure:1101: x86_64-openwrt-linux-musl-gcc -o conftest -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -iremap /home/ubuntu/source/build_dir/target-x86_64_musl-1.1.16/udptunnel-1.1:udptunnel-1.1 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro  -Wall -I/home/ubuntu/source/staging_dir/target-x86_64_musl-1.1.16/usr/include -I/home/ubuntu/source/staging_dir/target-x86_64_musl-1.1.16/include -I/home/ubuntu/source/staging_dir/toolchain-x86_64_gcc-5.4.0_musl-1.1.16/usr/include -I/home/ubuntu/source/staging_dir/toolchain-x86_64_gcc-5.4.0_musl-1.1.16/include/fortify -I/home/ubuntu/source/staging_dir/toolchain-x86_64_gcc-5.4.0_musl-1.1.16/include  -L/home/ubuntu/source/staging_dir/target-x86_64_musl-1.1.16/usr/lib -L/home/ubuntu/source/staging_dir/target-x86_64_musl-1.1.16/lib -L/home/ubuntu/source/staging_dir/toolchain-x86_64_gcc-5.4.0_musl-1.1.16/usr/lib -L/home/ubuntu/source/staging_dir/toolchain-x86_64_gcc-5.4.0_musl-1.1.16/lib -znow -zrelro  conftest.c -lsocket   1>&5
+/home/ubuntu/source/staging_dir/toolchain-x86_64_gcc-5.4.0_musl-1.1.16/lib/gcc/x86_64-openwrt-linux-musl/5.4.0/../../../../x86_64-openwrt-linux-musl/bin/ld: cannot find -lsocket
+collect2: error: ld returned 1 exit status
+configure: failed program was:
+#line 1090 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char socket();
+
+int main() {
+socket()
+; return 0; }
+configure:1130: checking how to run the C preprocessor
+configure:1151: x86_64-openwrt-linux-musl-gcc -E -I/home/ubuntu/source/staging_dir/target-x86_64_musl-1.1.16/usr/include -I/home/ubuntu/source/staging_dir/target-x86_64_musl-1.1.16/include -I/home/ubuntu/source/staging_dir/toolchain-x86_64_gcc-5.4.0_musl-1.1.16/usr/include -I/home/ubuntu/source/staging_dir/toolchain-x86_64_gcc-5.4.0_musl-1.1.16/include/fortify -I/home/ubuntu/source/staging_dir/toolchain-x86_64_gcc-5.4.0_musl-1.1.16/include  conftest.c >/dev/null 2>conftest.out
+configure:1210: checking for ANSI C header files
+configure:1223: x86_64-openwrt-linux-musl-gcc -E -I/home/ubuntu/source/staging_dir/target-x86_64_musl-1.1.16/usr/include -I/home/ubuntu/source/staging_dir/target-x86_64_musl-1.1.16/include -I/home/ubuntu/source/staging_dir/toolchain-x86_64_gcc-5.4.0_musl-1.1.16/usr/include -I/home/ubuntu/source/staging_dir/toolchain-x86_64_gcc-5.4.0_musl-1.1.16/include/fortify -I/home/ubuntu/source/staging_dir/toolchain-x86_64_gcc-5.4.0_musl-1.1.16/include  conftest.c >/dev/null 2>conftest.out
+configure:1317: checking for fcntl.h
+configure:1327: x86_64-openwrt-linux-musl-gcc -E -I/home/ubuntu/source/staging_dir/target-x86_64_musl-1.1.16/usr/include -I/home/ubuntu/source/staging_dir/target-x86_64_musl-1.1.16/include -I/home/ubuntu/source/staging_dir/toolchain-x86_64_gcc-5.4.0_musl-1.1.16/usr/include -I/home/ubuntu/source/staging_dir/toolchain-x86_64_gcc-5.4.0_musl-1.1.16/include/fortify -I/home/ubuntu/source/staging_dir/toolchain-x86_64_gcc-5.4.0_musl-1.1.16/include  conftest.c >/dev/null 2>conftest.out
+configure:1317: checking for sys/time.h
+configure:1327: x86_64-openwrt-linux-musl-gcc -E -I/home/ubuntu/source/staging_dir/target-x86_64_musl-1.1.16/usr/include -I/home/ubuntu/source/staging_dir/target-x86_64_musl-1.1.16/include -I/home/ubuntu/source/staging_dir/toolchain-x86_64_gcc-5.4.0_musl-1.1.16/usr/include -I/home/ubuntu/source/staging_dir/toolchain-x86_64_gcc-5.4.0_musl-1.1.16/include/fortify -I/home/ubuntu/source/staging_dir/toolchain-x86_64_gcc-5.4.0_musl-1.1.16/include  conftest.c >/dev/null 2>conftest.out
+configure:1317: checking for unistd.h
+configure:1327: x86_64-openwrt-linux-musl-gcc -E -I/home/ubuntu/source/staging_dir/target-x86_64_musl-1.1.16/usr/include -I/home/ubuntu/source/staging_dir/target-x86_64_musl-1.1.16/include -I/home/ubuntu/source/staging_dir/toolchain-x86_64_gcc-5.4.0_musl-1.1.16/usr/include -I/home/ubuntu/source/staging_dir/toolchain-x86_64_gcc-5.4.0_musl-1.1.16/include/fortify -I/home/ubuntu/source/staging_dir/toolchain-x86_64_gcc-5.4.0_musl-1.1.16/include  conftest.c >/dev/null 2>conftest.out
+configure:1355: checking size of short
+configure:1397: checking for select
+configure:1425: x86_64-openwrt-linux-musl-gcc -o conftest -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -iremap /home/ubuntu/source/build_dir/target-x86_64_musl-1.1.16/udptunnel-1.1:udptunnel-1.1 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro  -Wall -I/home/ubuntu/source/staging_dir/target-x86_64_musl-1.1.16/usr/include -I/home/ubuntu/source/staging_dir/target-x86_64_musl-1.1.16/include -I/home/ubuntu/source/staging_dir/toolchain-x86_64_gcc-5.4.0_musl-1.1.16/usr/include -I/home/ubuntu/source/staging_dir/toolchain-x86_64_gcc-5.4.0_musl-1.1.16/include/fortify -I/home/ubuntu/source/staging_dir/toolchain-x86_64_gcc-5.4.0_musl-1.1.16/include  -L/home/ubuntu/source/staging_dir/target-x86_64_musl-1.1.16/usr/lib -L/home/ubuntu/source/staging_dir/target-x86_64_musl-1.1.16/lib -L/home/ubuntu/source/staging_dir/toolchain-x86_64_gcc-5.4.0_musl-1.1.16/usr/lib -L/home/ubuntu/source/staging_dir/toolchain-x86_64_gcc-5.4.0_musl-1.1.16/lib -znow -zrelro  conftest.c  1>&5
+configure:1397: checking for socket
+configure:1425: x86_64-openwrt-linux-musl-gcc -o conftest -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -iremap /home/ubuntu/source/build_dir/target-x86_64_musl-1.1.16/udptunnel-1.1:udptunnel-1.1 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro  -Wall -I/home/ubuntu/source/staging_dir/target-x86_64_musl-1.1.16/usr/include -I/home/ubuntu/source/staging_dir/target-x86_64_musl-1.1.16/include -I/home/ubuntu/source/staging_dir/toolchain-x86_64_gcc-5.4.0_musl-1.1.16/usr/include -I/home/ubuntu/source/staging_dir/toolchain-x86_64_gcc-5.4.0_musl-1.1.16/include/fortify -I/home/ubuntu/source/staging_dir/toolchain-x86_64_gcc-5.4.0_musl-1.1.16/include  -L/home/ubuntu/source/staging_dir/target-x86_64_musl-1.1.16/usr/lib -L/home/ubuntu/source/staging_dir/target-x86_64_musl-1.1.16/lib -L/home/ubuntu/source/staging_dir/toolchain-x86_64_gcc-5.4.0_musl-1.1.16/usr/lib -L/home/ubuntu/source/staging_dir/toolchain-x86_64_gcc-5.4.0_musl-1.1.16/lib -znow -zrelro  conftest.c  1>&5
+configure:1397: checking for strtol
+configure:1425: x86_64-openwrt-linux-musl-gcc -o conftest -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -iremap /home/ubuntu/source/build_dir/target-x86_64_musl-1.1.16/udptunnel-1.1:udptunnel-1.1 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro  -Wall -I/home/ubuntu/source/staging_dir/target-x86_64_musl-1.1.16/usr/include -I/home/ubuntu/source/staging_dir/target-x86_64_musl-1.1.16/include -I/home/ubuntu/source/staging_dir/toolchain-x86_64_gcc-5.4.0_musl-1.1.16/usr/include -I/home/ubuntu/source/staging_dir/toolchain-x86_64_gcc-5.4.0_musl-1.1.16/include/fortify -I/home/ubuntu/source/staging_dir/toolchain-x86_64_gcc-5.4.0_musl-1.1.16/include  -L/home/ubuntu/source/staging_dir/target-x86_64_musl-1.1.16/usr/lib -L/home/ubuntu/source/staging_dir/target-x86_64_musl-1.1.16/lib -L/home/ubuntu/source/staging_dir/toolchain-x86_64_gcc-5.4.0_musl-1.1.16/usr/lib -L/home/ubuntu/source/staging_dir/toolchain-x86_64_gcc-5.4.0_musl-1.1.16/lib -znow -zrelro  conftest.c  1>&5
